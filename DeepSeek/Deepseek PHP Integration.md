@@ -1,7 +1,6 @@
+# Integrating DeepSeek with PHP
 
-## Alternative: Using DeepSeek PHP Client Directly
-
-### Step 1: Clone the Repository
+## Step 1: Clone the Repository
 Clone the DeepSeek PHP Client repository:
 
 ```bash
@@ -14,7 +13,7 @@ Navigate to the project directory:
 cd deepseek-php-client
 ```
 
-### Step 2: Install Dependencies
+## Step 2: Install Dependencies
 Require the package via Composer:
 
 ```bash
@@ -28,7 +27,7 @@ composer install
 composer update
 ```
 
-### Step 3: Create and Test a Simple Script
+## Step 3: Create and Test a Simple Script
 Download the following file to test the integration:
 
 [📥 Download test.php](test.php)
@@ -53,7 +52,7 @@ echo "Response from DeepSeek: " . $response;
 ```
 
 ## Reference
-All integration steps were followed using the official DeepSeek Laravel wrapper documentation:
-[DeepSeek Laravel GitHub Repository](https://github.com/deepseek-php/deepseek-laravel/blob/master/README.md)
+All integration steps were followed using the official DeepSeek PHP Client documentation:
+[DeepSeek PHP Client GitHub Repository](https://github.com/deepseek-php/deepseek-php-client)
 
-DeepSeek Laravel provides the best Laravel wrapper for the [DeepSeek PHP Client](https://github.com/deepseek-php/deepseek-php-client), enabling seamless integration with the [DeepSeek AI API](https://www.deepseek.com/).
+DeepSeek PHP Client is a community-driven SDK for seamless integration with the [DeepSeek AI API](https://www.deepseek.com/).
